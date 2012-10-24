@@ -1,0 +1,12 @@
+1. ./bug.py
+
+  Traceback (most recent call last):
+    File "./bug.py", line 15, in <module>
+      in_file = cindex.conf.lib.clang_getIncludedFile(c)
+    File "/Users/leo/sandbox/bug/clang/cindex.py", line 1620, in __init__
+      assert isinstance(obj, c_object_p) and obj
+  AssertionError
+     
+2. ./ex1.sh
+
+  inclusion directive=Foundation/Foundation.h (/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h)
